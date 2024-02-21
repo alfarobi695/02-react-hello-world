@@ -10,64 +10,76 @@ NIM  : 2341727001
 
 ### TypeScript
 
-    TypeScript adalah sebuah bahasa pemrograman open-source yang dikembangkan oleh Microsoft. Ini menyediakan fitur tipe statis opsional yang meningkatkan keamanan dan keandalan kode JavaScript.
+TypeScript adalah sebuah bahasa pemrograman open-source yang dikembangkan oleh Microsoft. Ini menyediakan fitur tipe statis opsional yang meningkatkan keamanan dan keandalan kode JavaScript.
 
 ### ESLint
 
-    ESLint adalah alat linting JavaScript yang membantu dalam mengidentifikasi dan memperbaiki pola kode yang buruk atau tidak efisien. Ini membantu dalam menjaga konsistensi kode dan memastikan standar kualitas yang tinggi.
+ESLint adalah alat linting JavaScript yang membantu dalam mengidentifikasi dan memperbaiki pola kode yang buruk atau tidak efisien. Ini membantu dalam menjaga konsistensi kode dan memastikan standar kualitas yang tinggi.
 
 ### Tailwind CSS
 
-    Tailwind CSS adalah sebuah kerangka kerja CSS yang memungkinkan pengembang untuk membuat desain web yang responsif dan konsisten dengan cepat. Ini mempromosikan pendekatan utility-first untuk styling, memungkinkan fleksibilitas yang besar dalam desain.
+Tailwind CSS adalah sebuah kerangka kerja CSS yang memungkinkan pengembang untuk membuat desain web yang responsif dan konsisten dengan cepat. Ini mempromosikan pendekatan utility-first untuk styling, memungkinkan fleksibilitas yang besar dalam desain.
 
 ### App Router
 
-    App Router bertanggung jawab atas manajemen navigasi dalam aplikasi web. Ini memungkinkan pengguna untuk berpindah antara berbagai halaman atau bagian dari aplikasi dengan mudah tanpa perlu memuat ulang seluruh situs web.
+App Router bertanggung jawab atas manajemen navigasi dalam aplikasi web. Ini memungkinkan pengguna untuk berpindah antara berbagai halaman atau bagian dari aplikasi dengan mudah tanpa perlu memuat ulang seluruh situs web.
 
 ### Import Alias
 
-    Import Alias memungkinkan memberi nama alias pada direktori atau modul dalam kode JavaScript/TypeScript. Ini membantu dalam pengorganisasian kode dan meningkatkan keterbacaan.
+Import Alias memungkinkan memberi nama alias pada direktori atau modul dalam kode JavaScript/TypeScript. Ini membantu dalam pengorganisasian kode dan meningkatkan keterbacaan.
 
 ## Soal 2
 
 ### Folder
 
-    1. .git 
+1. .git 
+
     Digunakan oleh Git untuk menyimpan semua metadata dan database objek proyek. Ini penting untuk kontrol versi dan manajemen kode sumber.
 
-    2. node_modules
+2. node_modules
+
     Berisi berbagai file dan konfigurasi yang mendukung fitur-fitur Next.js, seperti routing pages, built-in CSS support, layout component, image optimization, font optimization, script optimization, static file serving, dan fast refresh.
 
-    3. Public
+3. Public
+
     Folder ini berisi file-file statis yang akan diakses secara langsung oleh pengguna. Misalnya, file HTML utama (index.html) berada di sini bersama dengan file gambar, favicon, atau font yang akan digunakan dalam aplikasi. Ini adalah tempat yang tepat untuk meletakkan aset yang tidak akan dimanipulasi oleh React atau Webpack.
 
-    4. src
+4. src
+
     Merupakan folder yang berisi kode sumber dari aplikasi React. Kode JavaScript atau TypeScript, komponen React, file CSS, atau file lain yang dibutuhkan untuk membangun aplikasi berada di sini. Ini adalah tempat utama di mana Anda akan menghabiskan sebagian besar waktu Anda dalam pengembangan aplikasi.
 
 ### File
 
-    1. .eslintrc.json
+1. .eslintrc.json
+
     File konfigurasi untuk ESLint, alat yang mengidentifikasi dan melaporkan pola yang ditemukan dalam kode ECMAScript/JavaScript untuk menjadikannya lebih konsisten dan menghindari bug.
 
-    2. .gitignore
+2. .gitignore
+
     Daftar file dan direktori yang diabaikan saat mengunggah ke repositori Git.
 
-    3. next.config.mjs & next-env.d.ts
+3. next.config.mjs & next-env.d.ts
+    
     File konfigurasi terkait kerangka kerja Next.js yang digunakan untuk merender aplikasi React secara server-side.
 
-    4. package.json & package-lock.json
+4. package.json & package-lock.json
+    
     Berisi metadata tentang proyek seperti dependensi. File lock memastikan setiap instalasi menghasilkan versi dependensi yang sama di semua mesin.
 
-    5. postcss.config.js
+5. postcss.config.js
+    
     File konfigurasi untuk PostCSS, alat untuk mengubah CSS dengan plugin JavaScript seperti autoprefixer atau cssnext.
     
-    6. README.md
+6. README.md
+    
     File markdown berisi informasi tentang proyek seperti petunjuk instalasi atau dokumentasi.
 
-    7. tailwind.config.ts
+7. tailwind.config.ts
+    
     File konfigurasi untuk kerangka kerja Tailwind CSS yang memungkinkan pengembang membangun situs web modern dengan struktur kelas CSS berbasis utilitas.
     
-    8. tsconfig.json
+8. tsconfig.json
+    
     Opsi konfigurasi untuk proyek TypeScript.
 
 ## Soal 3
