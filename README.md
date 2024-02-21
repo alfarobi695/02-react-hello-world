@@ -1,22 +1,28 @@
-# Soal 1
+Nama : Muhamad Al Fatoby
+Kelas: TI-4J
+NIM  : 2341727001
 
-## TypeScript
+# Pratikum 2 PBF Semester 8
+
+## Soal 1
+
+### TypeScript
 
 TypeScript adalah sebuah bahasa pemrograman open-source yang dikembangkan oleh Microsoft. Ini menyediakan fitur tipe statis opsional yang meningkatkan keamanan dan keandalan kode JavaScript.
 
-## ESLint
+### ESLint
 
 ESLint adalah alat linting JavaScript yang membantu dalam mengidentifikasi dan memperbaiki pola kode yang buruk atau tidak efisien. Ini membantu dalam menjaga konsistensi kode dan memastikan standar kualitas yang tinggi.
 
-## Tailwind CSS
+### Tailwind CSS
 
 Tailwind CSS adalah sebuah kerangka kerja CSS yang memungkinkan pengembang untuk membuat desain web yang responsif dan konsisten dengan cepat. Ini mempromosikan pendekatan utility-first untuk styling, memungkinkan fleksibilitas yang besar dalam desain.
 
-## App Router
+### App Router
 
 App Router bertanggung jawab atas manajemen navigasi dalam aplikasi web. Ini memungkinkan pengguna untuk berpindah antara berbagai halaman atau bagian dari aplikasi dengan mudah.
 
-## Import Alias
+### Import Alias
 
 Import Alias memungkinkan memberi nama alias pada direktori atau modul dalam kode JavaScript/TypeScript. Ini membantu dalam pengorganisasian kode dan meningkatkan keterbacaan.
 
