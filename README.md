@@ -20,19 +20,29 @@ App Router bertanggung jawab atas manajemen navigasi dalam aplikasi web. Ini mem
 
 Import Alias memungkinkan memberi nama alias pada direktori atau modul dalam kode JavaScript/TypeScript. Ini membantu dalam pengorganisasian kode dan meningkatkan keterbacaan.
 
-## Cara Menjalankan Aplikasi
+# Soal 2
+
+## node_modules
+
+Merupakan folder yang berisi semua dependensi proyek yang diinstal melalui npm (Node Package Manager). Setiap paket npm yang diinstal akan disimpan di sini bersama dengan dependensi mereka sendiri. Biasanya, folder ini diabaikan oleh sistem kontrol versi karena ukurannya yang besar dan karena paket-paket ini dapat diinstal kembali menggunakan file package.json.
+
+## public
+
+Folder ini berisi file-file statis yang akan diakses secara langsung oleh pengguna. Misalnya, file HTML utama (index.html) berada di sini bersama dengan file gambar, favicon, atau font yang akan digunakan dalam aplikasi. Ini adalah tempat yang tepat untuk meletakkan aset yang tidak akan dimanipulasi oleh React atau Webpack.
+
+## src
+
+Merupakan folder yang berisi kode sumber dari aplikasi React. Kode JavaScript atau TypeScript, komponen React, file CSS, atau file lain yang dibutuhkan untuk membangun aplikasi berada di sini. Ini adalah tempat utama di mana Anda akan menghabiskan sebagian besar waktu Anda dalam pengembangan aplikasi.
+
+# Dokumentasi
+
+![CMD](1 (1).png)
+
+# Cara Menjalankan Aplikasi
 
 1. Pastikan Anda telah menginstal Node.js dan npm.
 2. Clone repositori ini ke komputer Anda.
 3. Buka terminal dan navigasi ke direktori proyek.
 4. Jalankan `npm install` untuk menginstal dependensi.
-5. Jalankan `npm start` untuk memulai server pengembangan.
+5. Jalankan `npm run dev` untuk memulai server pengembangan.
 6. Buka browser dan akses `http://localhost:3000` untuk melihat aplikasi berjalan.
-
-## Kontribusi
-
-Kami menyambut kontribusi dari siapa saja yang tertarik. Jika Anda ingin berkontribusi, harap kirimkan *Pull Request* dengan perubahan yang diusulkan.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah lisensi [nama lisensi]. Lihat file `LICENSE` untuk detail lebih lanjut.
