@@ -36,7 +36,7 @@ Merupakan folder yang berisi kode sumber dari aplikasi React. Kode JavaScript at
 
 # Dokumentasi
 
-![CMD]/(1 (1).png)
+![CMD](/public/1%20(1).png)
 
 # Cara Menjalankan Aplikasi
 
