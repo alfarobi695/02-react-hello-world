@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Deskripsi Aplikasi
 
-## Getting Started
+Soal 1
 
-First, run the development server:
+## Teknologi Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### TypeScript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+TypeScript adalah sebuah bahasa pemrograman open-source yang dikembangkan oleh Microsoft. Ini menyediakan fitur tipe statis opsional yang meningkatkan keamanan dan keandalan kode JavaScript.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### ESLint
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ESLint adalah alat linting JavaScript yang membantu dalam mengidentifikasi dan memperbaiki pola kode yang buruk atau tidak efisien. Ini membantu dalam menjaga konsistensi kode dan memastikan standar kualitas yang tinggi.
 
-## Learn More
+### Tailwind CSS
 
-To learn more about Next.js, take a look at the following resources:
+Tailwind CSS adalah sebuah kerangka kerja CSS yang memungkinkan pengembang untuk membuat desain web yang responsif dan konsisten dengan cepat. Ini mempromosikan pendekatan utility-first untuk styling, memungkinkan fleksibilitas yang besar dalam desain.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### App Router
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+App Router bertanggung jawab atas manajemen navigasi dalam aplikasi web. Ini memungkinkan pengguna untuk berpindah antara berbagai halaman atau bagian dari aplikasi dengan mudah.
 
-## Deploy on Vercel
+### Import Alias
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Import Alias memungkinkan memberi nama alias pada direktori atau modul dalam kode JavaScript/TypeScript. Ini membantu dalam pengorganisasian kode dan meningkatkan keterbacaan.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Cara Menjalankan Aplikasi
+
+1. Pastikan Anda telah menginstal Node.js dan npm.
+2. Clone repositori ini ke komputer Anda.
+3. Buka terminal dan navigasi ke direktori proyek.
+4. Jalankan `npm install` untuk menginstal dependensi.
+5. Jalankan `npm start` untuk memulai server pengembangan.
+6. Buka browser dan akses `http://localhost:3000` untuk melihat aplikasi berjalan.
+
+## Kontribusi
+
+Kami menyambut kontribusi dari siapa saja yang tertarik. Jika Anda ingin berkontribusi, harap kirimkan *Pull Request* dengan perubahan yang diusulkan.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah lisensi [nama lisensi]. Lihat file `LICENSE` untuk detail lebih lanjut.
