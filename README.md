@@ -36,7 +36,15 @@ Merupakan folder yang berisi kode sumber dari aplikasi React. Kode JavaScript at
 
 # Dokumentasi
 
+## CMD
 ![CMD](/public/1%20(1).png)
+
+## VSC
+![CMD](/public/1%20(3).png)
+
+## Hasil
+![CMD](/public/1%20(2).png)
+
 
 # Cara Menjalankan Aplikasi
 
