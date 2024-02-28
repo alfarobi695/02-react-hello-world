@@ -16,17 +16,33 @@
 //   );
 // }
 
+// import { Gallery } from "@/components/gallery";
+// export default function Home() {
+//   return (
+// <div>
+// <h2 className="text-center">Ilmuwan yang luar biasa</h2>
+//   <div className="grid grid-cols-3 gap-8 justify-center">
+//     <Gallery />
+//   </div>
+// </div>
+
+
+//   );
+// }
+
+
 import { Gallery } from "@/components/gallery";
+import TodoList from "@/components/todolist";
+
 export default function Home() {
   return (
-<div>
-<h2 className="text-center">Ilmuwan yang luar biasa</h2>
-  <div className="grid grid-cols-3 gap-8 justify-center">
-    <Gallery />
-  </div>
-</div>
-
-
+    <section>
+      <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
+      <hr />
+      <Gallery />
+      <hr />
+      <TodoList />
+    </section>
   );
 }
 

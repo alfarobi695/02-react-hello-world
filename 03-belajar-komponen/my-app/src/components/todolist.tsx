@@ -3,7 +3,8 @@ const person = {
     theme: {
         backgroundColor: 'black',
         color: 'pink'
-    }
+    },
+    avatar: 'https://i.imgur.com/7vQD0fPs.jpg' // Menambahkan properti avatar dengan URL gambar
 };
 
 export default function TodoList() {
@@ -12,7 +13,7 @@ export default function TodoList() {
             <h1>{person.name}'s Todos</h1>
             <img
                 className="avatar"
-                src="https://i.imgur.com/7vQD0fPs.jpg"
+                src={person.avatar} // Menggunakan URL gambar dari properti avatar
                 alt="Gregorio Y. Zara"
             />
             <ul>
