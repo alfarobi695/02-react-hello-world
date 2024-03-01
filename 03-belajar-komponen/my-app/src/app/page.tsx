@@ -64,8 +64,8 @@ export default function Home() {
           }}
         />
       </Card> */}
-      <MyGallery/>
-      {/* <MyProfile/> */}
+      {/* <MyGallery/> */}
+      <MyProfile/>
       {/* <MyProfileV2/> */}
       {/* <Profile /> */}
     </section>
