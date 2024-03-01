@@ -57,4 +57,18 @@ Saya mempelajari tentang penggunaan Tailwind dan tag HTML. Eror terjadi karena p
 ### page.tsx
 ![page](/03-belajar-komponen/my-app/img/Screenshot_407.png)
 
+## Soal 4
+Kode di atas masih terdapat error, silakan diperbaiki.
 
+### Penjelasan
+Eror terjadi karena < h1 >{person}'s Todos< /h1 > harus dirubah ke < h1 >{person.name}'s Todos< /h1 >
+
+
+### Result
+![result](/03-belajar-komponen/my-app/img/Screenshot_408.png)
+
+### todolist.tsx
+![todolist](/03-belajar-komponen/my-app/img/Screenshot_409.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_410.png)

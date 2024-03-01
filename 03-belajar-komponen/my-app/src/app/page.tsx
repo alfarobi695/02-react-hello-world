@@ -37,14 +37,33 @@
 
 
 
-import Bio from "@/components/jsx";
+// import Bio from "@/components/jsx";
+// export default function Home() {
+//   return (
+//     <div>
+//         <Bio />
+//     </div>
+//   );
+// }
+
+
+import TodoList from "@/components/todolist";
 export default function Home() {
   return (
     <div>
-        <Bio />
+        <TodoList />
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
 
 
 
