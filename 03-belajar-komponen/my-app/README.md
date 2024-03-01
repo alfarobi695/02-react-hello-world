@@ -21,9 +21,23 @@ Saya belajar untuk menggunakan Tailwind (seperti pada screenshhot profile.tsx) s
 ![page](/03-belajar-komponen/my-app/img/Screenshot_397.png)
 
 ### next.config.js
-![page](/03-belajar-komponen/my-app/img/Screenshot_399.png)
+![next.config.js](/03-belajar-komponen/my-app/img/Screenshot_399.png)
 
 ## Soal 2
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 
 ### Penejelasan
+Saya belajar penggunaan "impor" dan "ekspor" yang merupakan cara yang digunakan untuk mengelola berkas-berkas komponen yang terpisah dalam pengembangan projek. Praktik tersebut memecah kode menjadi bagian-bagian yang terpisah agar lebih mudah dikelola.
+
+### result
+![result](/03-belajar-komponen/my-app/img/Screenshot_400.png)
+
+### profile.tsx
+![profile](/03-belajar-komponen/my-app/img/Screenshot_402.png)
+
+### gallery.tsx
+![gallery](/03-belajar-komponen/my-app/img/Screenshot_403.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_401.png)
+
