@@ -86,4 +86,19 @@ Ada perbedaan pada tampilan web saat ini sehingga tampilan berbeda dengan result
 ![todolist](/03-belajar-komponen/my-app/img/Screenshot_411.png)
 
 ### page.tsx
-![page](/03-belajar-komponen/my-app/img/Screenshot_413s.png)
+![page](/03-belajar-komponen/my-app/img/Screenshot_413.png)
+
+## Soal 6
+Perbaiki kode tersebut pada bagian atribut src. Kode lainnya dapat Anda sesuaikan dari jawaban soal sebelumnya. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+### Penjelasan
+Saya mempelajari cara menggabungkan antar string yang merupakan hasil opean dari variable antar komponen menggunakan $. Hasil yang tampil sama dengan hasil pada result saol nomer 5
+
+### Result
+![result](/03-belajar-komponen/my-app/img/Screenshot_412.png)
+
+### todolist.tsx
+![todolist](/03-belajar-komponen/my-app/img/Screenshot_414.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_413.png)
