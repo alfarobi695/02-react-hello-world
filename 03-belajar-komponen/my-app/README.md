@@ -131,8 +131,28 @@ Saya mempelajari cara penggunaan pengkondisian pada komponen sehingga bisa memen
 ![myprofile](/03-belajar-komponen/my-app/img/Screenshot_418.png)
 
 ### utils.tsx
-![myprofile](/03-belajar-komponen/my-app/img/Screenshot_419.png)
+![utils](/03-belajar-komponen/my-app/img/Screenshot_419.png)
 
 ### page.tsx
 ![page](/03-belajar-komponen/my-app/img/Screenshot_420.png)
+
+## Soal 9
+Jika kode di atas terdapat error, silakan diperbaiki. Buatlah komponen Card dari kode di atas, lalu gunakan prop children untuk mengirimkan JSX yang berbeda. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+### Penjelasan
+Saya mempelajari cara menerapkan sebuah komponen yang digunakan untuk membuat profil seseorang dalam format yang terbagi menjadi dua bagian menggunakan tata letak grid. Di dalamnya terdapat komponen Card yang bertujuan untuk membuat kartu dengan judul dan konten di dalamnya. Kemudian, terdapat komponen utama yang dinamakan MyProfileV2. Komponen ini menggunakan Card untuk menampilkan informasi profil dalam dua bagian, yaitu foto dan deskripsi.
+
+### result
+![result](/03-belajar-komponen/my-app/img/Screenshot_421.png)
+
+### myprofilev2.tsx
+![myprofilev2](/03-belajar-komponen/my-app/img/Screenshot_422.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_423.png)
+
+
+
+
+
 

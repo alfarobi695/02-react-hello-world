@@ -6,7 +6,7 @@ function Card({ title, children }) {
             <div className="text-gray-900 font-bold text-xl mb-2">{title}</div>
             <div className="text-gray-700 text-base">{children}</div>
         </div>
-    );
+    ); 
 }
 
 export default function MyProfileV2() {
