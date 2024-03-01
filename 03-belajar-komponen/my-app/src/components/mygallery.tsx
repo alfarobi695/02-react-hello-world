@@ -5,7 +5,7 @@ function Profile({ name, imageId, profession, awards, discovery }) {
         <section className="profile">
             <h2>{name}</h2>
             <img
-                className="avatar"
+                className="avatar w-16 h-16 rounded-full mb-4"
                 src={getImageUrl(imageId)}
                 alt={name}
                 width={70}

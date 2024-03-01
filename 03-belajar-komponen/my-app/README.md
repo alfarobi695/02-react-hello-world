@@ -102,3 +102,18 @@ Saya mempelajari cara menggabungkan antar string yang merupakan hasil opean dari
 
 ### page.tsx
 ![page](/03-belajar-komponen/my-app/img/Screenshot_413.png)
+
+## Soal 7
+Jika kode di atas terdapat error, silakan diperbaiki. Komponen MyGallery ini berisi dua markup yang sama persis. Ekstraklah menjadi komponen MyProfile untuk mengurangi duplikasi. Anda perlu memilih props apa saja yang akan dikirimkan. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+### Penjelasan
+Saya mempelajari cara penggunaan props, dan  menggunakan impor-ekspor sehingga dapat menimalisir duplikasi kode. Hasil compile kode menampilkan gambar 2 ilmuwan beserta nama, profesi, penghargaan dan penemuannya.
+
+### result
+![result](/03-belajar-komponen/my-app/img/Screenshot_415.png)
+
+### mygallery.tsx
+![result](/03-belajar-komponen/my-app/img/Screenshot_416.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_417.png)
