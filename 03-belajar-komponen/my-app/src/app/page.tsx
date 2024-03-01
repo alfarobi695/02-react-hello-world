@@ -76,11 +76,22 @@
 
 
 
-import MyGallery from "@/components/mygallery"
+// import MyGallery from "@/components/mygallery"
+// export default function Home() {
+//   return (
+//     <div>
+//       <MyGallery />
+//     </div>
+//   );
+// }
+
+
+
+import MyProfile from "@/components/myprofile"
 export default function Home() {
   return (
     <div>
-      <MyGallery />
+      <MyProfile />
     </div>
   );
 }

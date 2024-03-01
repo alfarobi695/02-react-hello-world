@@ -23,6 +23,8 @@
 //         />
 //     );
 // }
+
+
 import { getImageUrlV2 } from '../utils/utils';
 
 function MyAvatar({ person, size }) {

@@ -113,7 +113,26 @@ Saya mempelajari cara penggunaan props, dan  menggunakan impor-ekspor sehingga d
 ![result](/03-belajar-komponen/my-app/img/Screenshot_415.png)
 
 ### mygallery.tsx
-![result](/03-belajar-komponen/my-app/img/Screenshot_416.png)
+![mygallery](/03-belajar-komponen/my-app/img/Screenshot_416.png)
 
 ### page.tsx
 ![page](/03-belajar-komponen/my-app/img/Screenshot_417.png)
+
+## Soal 8
+Jika kode di atas terdapat error, silakan diperbaiki. Ubahlah komponen MyAvatar untuk diolah ukuran gambarnya berdasarkan prop size. Khususnya, jika size kurang dari 90, kirimkan 's' ("small") bukan 'b' ("big") pada fungsi getImageUrl. Pastikan bahwa perubahan yang Anda buat berjalan dengan cara me-render avatars dengan nilai prop size yang berbeda dan buka gambar pada tab baru di browser. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+### Penjelasan
+Saya mempelajari cara penggunaan pengkondisian pada komponen sehingga bisa memengaruhi komponen lain dengan kondisi jika size kurang dari 90, kirimkan 's' ("small") bukan 'b' ("big") pada fungsi getImageUrl. Saat ini tampilan image akan berubah menjadi besar ketika mengatur variable size dengan value lebih dari 89
+
+### result
+![result](/03-belajar-komponen/my-app/img/Screenshot_394.png)
+
+### myprofile.tsx
+![myprofile](/03-belajar-komponen/my-app/img/Screenshot_418.png)
+
+### utils.tsx
+![myprofile](/03-belajar-komponen/my-app/img/Screenshot_419.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_420.png)
+
