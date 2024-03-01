@@ -72,3 +72,18 @@ Eror terjadi karena < h1 >{person}'s Todos< /h1 > harus dirubah ke < h1 >{person
 
 ### page.tsx
 ![page](/03-belajar-komponen/my-app/img/Screenshot_410.png)
+
+## Soal 5
+Buka file src/components/todolist.tsx lakukan ekstrak URL gambar ke dalam objek person. Capture hasilnya dan buatlah laporan di README.md. Apakah ada perbedaan pada tampilan web saat ini?
+
+### Penjelasan
+Ada perbedaan pada tampilan web saat ini sehingga tampilan berbeda dengan result nomer 4. Hal tersebut dapat terjadi karena penambahan import komponen galery pada page.tsx. Dan pada file todolist.tsx, URL gambar diimpor ke komponen lain sehingga manfaat nya dapat digunakan berulang-ulang dengan hasil yang sama
+
+### Result
+![result](/03-belajar-komponen/my-app/img/Screenshot_412.png)
+
+### todolist.tsx
+![todolist](/03-belajar-komponen/my-app/img/Screenshot_411.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_413s.png)

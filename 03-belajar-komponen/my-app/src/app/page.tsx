@@ -47,12 +47,29 @@
 // }
 
 
+// import TodoList from "@/components/todolist";
+// export default function Home() {
+//   return (
+//     <div>
+//         <TodoList />
+//     </div>
+//   );
+// }
+
+
+
+
+import { Gallery } from "@/components/gallery";
 import TodoList from "@/components/todolist";
 export default function Home() {
   return (
-    <div>
-        <TodoList />
-    </div>
+    <section>
+      <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
+      <hr />
+      <Gallery />
+      <hr />
+      <TodoList />
+    </section>
   );
 }
 
@@ -73,15 +90,8 @@ export default function Home() {
 
 
 
-
-
-
-
-
-
 // import Profile from "@/components/avatar";
-// import { Gallery } from "@/components/gallery";
-// import TodoList from "@/components/todolist";
+
 
 // import MyGallery from "@/components/mygallery"
 // import MyProfile from "@/components/myprofile"
