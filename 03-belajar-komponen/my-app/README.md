@@ -1,36 +1,29 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Nama : Muhamad Al Faroby
 
-## Getting Started
+Kelas: TI-4J
 
-First, run the development server:
+NIM  : 2341727001
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Soal 1 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ubah isi kode Home() sehingga dapat tampil seperti berikut dengan memanfaatkan komponen Profile() yang tadi sudah dibuat dari langkah 1 tersebut!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Penjelasan
+Saya belajar untuk menggunakan Tailwind (seperti pada screenshhot profile.tsx) sehingga resultnya sesaui dengan yang tertera pada soal. Untuk menngani eror yang terjadi harus menambahkan file next.config.js (seperti pada screenshoot next.config.js) pada folder root sehingga projek mengenali domain i.imgur.com
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### result 
+![result](/03-belajar-komponen/my-app/img/Screenshot%20(1158).png)
 
-## Learn More
+### profile.tsx
+![profile](/03-belajar-komponen/my-app/img/Screenshot_398.png)
 
-To learn more about Next.js, take a look at the following resources:
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_397.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### next.config.js
+![page](/03-belajar-komponen/my-app/img/Screenshot_399.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Soal 2
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Penejelasan

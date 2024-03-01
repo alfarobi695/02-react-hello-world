@@ -1,9 +1,9 @@
 import Image from "next/image";
 
 export default function Profile() {
-    return (
-        <div className="flex-space-x-4">
-                  <Image
+  return (
+    <div className="flex-space-x-4">
+      <Image
         src="https://i.imgur.com/MK3eW3Am.jpg"
         alt="Katherine Johnson"
         width={100}
@@ -13,9 +13,9 @@ export default function Profile() {
           height: "auto",
           margin: "13px"
         }}
-        
-      />
-        </div>
 
-    );
-  }
+      />
+    </div>
+
+  );
+}
