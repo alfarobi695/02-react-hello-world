@@ -84,7 +84,7 @@ Import Alias memungkinkan memberi nama alias pada direktori atau modul dalam kod
 
 ## Soal 3
 
-![CMD](/public/1%20(2).png)
+![CMD](/02-react-hello-world/public/1%20(2).png)
 
 Penejalasan : pada project next.js ketika telah berhasil mengganti teks , tidak perlu menjalankan perintah npm run dev dan tidak juga diperlukan me-reload halaman di browser karena adanya fitur yang disebut dengan "Hot Module Replacement" (HMR) dalam lingkungan pengembangan Next.js. HMR memungkinkan perubahan kode yang dibuat pada aplikasi Next.js untuk langsung tercermin di browser tanpa perlu melakukan reload halaman secara manual. Perintah npm run dev memungkinkan HMR aktif secara default.
 
@@ -92,27 +92,27 @@ Penejalasan : pada project next.js ketika telah berhasil mengganti teks , tidak 
 
 ## Next.js
 create project
-![CMD](/public/Screenshot_383.png)
+![CMD](/02-react-hello-world/public/Screenshot_383.png)
 run project
-![CMD](/public/Screenshot_384.png)
+![CMD](/02-react-hello-world/public/Screenshot_384.png)
 result
-![CMD](/public/1%20(2).png)
+![CMD](/02-react-hello-world/public/Screenshot_385.png)
 
 ## Remix
 create project
-![CMD](/public/Screenshot_385.png)
+![CMD](/02-react-hello-world/public/Screenshot_385.png)
 run project
-![CMD](/public/Screenshot_386.png)
+![CMD](/02-react-hello-world/public/Screenshot_386.png)
 result
-![CMD](/public/Screenshot_387.png)
+![CMD](/02-react-hello-world/public/Screenshot_387.png)
 
 ## Gatsby
 create project
-![CMD](/public/Screenshot_388.png)
+![CMD](/02-react-hello-world/public/Screenshot_388.png)
 run project
-![CMD](/public/Screenshot_389.png)
+![CMD](/02-react-hello-world/public/Screenshot_389.png)
 result
-![CMD](/public/Screenshot_390.png)
+![CMD](/02-react-hello-world/public/Screenshot_390.png)
 
 ## Perbedaannya diantara ketiga framework
 

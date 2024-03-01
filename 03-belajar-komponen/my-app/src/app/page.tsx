@@ -29,15 +29,22 @@
 
 //   );
 // }
-
-
+import Profile from "@/components/avatar";
 import { Gallery } from "@/components/gallery";
 import TodoList from "@/components/todolist";
 import Bio from "@/components/jsx";
 import MyGallery from "@/components/mygallery"
 import MyProfile from "@/components/myprofile"
+import MyProfileV2 from "@/components/myprofilev2"
+import Avatar from "@/components/avatar";
 
-
+// function Card({ children }) {
+//   return (
+//     <div className="card">
+//       {children}
+//     </div>
+//   );
+// }
 export default function Home() {
   return (
     <section>
@@ -46,11 +53,24 @@ export default function Home() {
       <Gallery />
       <hr />
       <TodoList />
-      <hr /> */}
-      {/* <Bio /> */}
-      {/* <MyGallery/> */}
-      <MyProfile/>
+      <hr />
+      <Bio /> */}
+      {/* <Card>
+        <Avatar
+          size={100}
+          person={{
+            name: 'Katsuko Saruhashi',
+            imageId: 'YfeOqp2'
+          }}
+        />
+      </Card> */}
+      <MyGallery/>
+      {/* <MyProfile/> */}
+      {/* <MyProfileV2/> */}
+      {/* <Profile /> */}
     </section>
+
   );
 }
+
 
