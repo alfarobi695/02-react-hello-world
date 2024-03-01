@@ -41,3 +41,20 @@ Saya belajar penggunaan "impor" dan "ekspor" yang merupakan cara yang digunakan 
 ### page.tsx
 ![page](/03-belajar-komponen/my-app/img/Screenshot_401.png)
 
+## Soal 3
+Silakan perbaiki kode JSX berikut ini. Anda boleh menggunakan konverter atau perbaiki secara manual.
+Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan mengapa error itu bisa terjadi?
+
+### Penjelasan
+Saya mempelajari tentang penggunaan Tailwind dan tag HTML. Eror terjadi karena pada Tailwind tidak mengenal tag class sehingga harus dirubah ke className dan menggunaan tag < /i > harus lebih dulu ketimbang < /b >
+
+### result
+![result](/03-belajar-komponen/my-app/img/Screenshot_405.png)
+
+### jsx.jsx
+![jsx](/03-belajar-komponen/my-app/img/Screenshot_406.png)
+
+### page.tsx
+![page](/03-belajar-komponen/my-app/img/Screenshot_407.png)
+
+

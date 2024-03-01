@@ -1,4 +1,4 @@
-export default function Bio(){
+export default function Bio() {
     return (
         <>
             <div className="intro">
@@ -10,6 +10,5 @@ export default function Bio(){
                 <b>Juga ada <i>foto</i></b> ilmuwan!
             </p>
         </>
-
     );
 }

@@ -23,19 +23,33 @@
 
 
 
-import { Gallery } from "@/components/gallery";
+// import { Gallery } from "@/components/gallery";
+// export default function Home() {
+//   return (
+//     <div>
+//       <h2 className="text-center">Ilmuwan yang luar biasa</h2>
+//       <div className="grid grid-cols-3 gap-8 justify-center">
+//         <Gallery />
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+import Bio from "@/components/jsx";
 export default function Home() {
   return (
     <div>
-      <h2 className="text-center">Ilmuwan yang luar biasa</h2>
-      <div className="grid grid-cols-3 gap-8 justify-center">
-        <Gallery />
-      </div>
+        <Bio />
     </div>
-
-
   );
 }
+
+
+
+
+
 
 
 
@@ -49,7 +63,7 @@ export default function Home() {
 // import Profile from "@/components/avatar";
 // import { Gallery } from "@/components/gallery";
 // import TodoList from "@/components/todolist";
-// import Bio from "@/components/jsx";
+
 // import MyGallery from "@/components/mygallery"
 // import MyProfile from "@/components/myprofile"
 // import MyProfileV2 from "@/components/myprofilev2"
