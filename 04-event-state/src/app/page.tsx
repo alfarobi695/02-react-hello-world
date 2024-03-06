@@ -1,13 +1,15 @@
-"use client"
-import Tombol_1 from "@/components/button";
-
+"use client";
+import Tombol_1, { Tombol_2 } from "@/components/button";
 
 export default function Home() {
   return (
-    <div className="Container mx-auto">
-      <h2>Ini Kota</h2>
-      <Tombol_1/>
-    </div>
-
+    <>
+      <div className="container mx-auto">
+        <h2>Kuis Kota</h2>
+        <Tombol_1 />
+        <hr></hr>
+        <Tombol_2 isiPesan="Tidak ada pesan" namaTombol="Pesan" />
+      </div>
+    </>
   );
 }
