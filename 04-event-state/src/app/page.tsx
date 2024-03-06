@@ -1,5 +1,6 @@
 "use client";
 import Tombol_1, { Tombol_2, Tombol_3 } from "@/components/button";
+import Gallery from "@/components/gallery";
 
 export default function Home() {
   return (
@@ -12,9 +13,11 @@ export default function Home() {
       </div>
       <br /><br />
       <div className="bg-red-500 onClic={()=>alert('Parent Element : Div')} ">
-        <Tombol_3 isiPesan="Child Element : Tombol-1" namaTombol="Pesan"/>
-        <Tombol_3 isiPesan="Child Element : Tombol-2" namaTombol="Pesan"/>
+        <Tombol_3 isiPesan="Child Element : Tombol-1" namaTombol="Pesan" />
+        <Tombol_3 isiPesan="Child Element : Tombol-2" namaTombol="Pesan" />
       </div>
+      <br /><br />
+      <Gallery />
     </>
   );
 }
