@@ -1,20 +1,21 @@
-export function Tombol_2({isiPesan, namaTombol}){
+export function Tombol_2({ isiPesan, namaTombol }) {
     return (
         <button
             className="bg-blue-500 hover:bg-blue-700 text-white p-2 rounded "
-            onClick={()=>alert(isiPesan)}>
+            onClick={() => alert(isiPesan)}>
             {namaTombol}
         </button>
     );
 }
 
-export function Tombol_3({isiPesan, namaTombol}){
+export function Tombol_3({ isiPesan, namaTombol }) {
     return (
         <button
             className="bg-green-500 hover:bg-green-700 text-white p-2 rounded "
-            onClick={(e)=>{
+            onClick={(e) => {
                 e.stopPropagation();
-                alert(isiPesan)}}>
+                alert(isiPesan)
+            }}>
             {namaTombol}
         </button>
     );
