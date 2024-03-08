@@ -22,7 +22,7 @@ NIM  : 2341727001
 
 ### Langkah 2
 
-`04-event-state/src/components/button.tsx` <br>
+`src/components/button.tsx` <br>
 ![4](/04-event-state/img/Screenshot_427.png)
 
 Muncul eror dengan solusi menambahkan "use client".
@@ -30,13 +30,13 @@ Muncul eror dengan solusi menambahkan "use client".
 `Issue result` <br>
 ![5](/04-event-state/img/Screenshot_428.png)
 
-`04-event-state/src/components/page.tsx` <br>
+`src/components/page.tsx` <br>
 ![6](/04-event-state/img/Screenshot_429.png)
 
 `Fix result` <br>
 ![6](/04-event-state/img/Screenshot_430.png)
 
-`04-event-state/src/components/button.tsx` <br>
+`src/components/button.tsx` <br>
 ![6](/04-event-state/img/Screenshot_431.png)
 
 `Result`
@@ -44,7 +44,7 @@ Muncul eror dengan solusi menambahkan "use client".
 
 ## Praktikum 2
 
-`04-event-state/src/components/button.tsx` <br>
+`src/components/button.tsx` <br>
 ![6](/04-event-state/img/Screenshot_433.png)
 
 `Result` <br>
@@ -54,10 +54,10 @@ Muncul eror dengan solusi menambahkan "use client".
 
 ### Langkah 1
 
-`04-event-state/src/components/button.tsx` <br>
+`src/components/button.tsx` <br>
 ![6](/04-event-state/img/Screenshot_438.png)
 
-`04-event-state/src/components/page.tsx` <br>
+`src/components/page.tsx` <br>
 ![6](/04-event-state/img/Screenshot_439.png)
 
 `Result` <br>
@@ -65,14 +65,32 @@ Muncul eror dengan solusi menambahkan "use client".
 
 ### Langkah 2
 
-`04-event-state/src/components/button.tsx` <br>
+`src/components/button.tsx` <br>
 ![6](/04-event-state/img/Screenshot_435.png)
 
-`04-event-state/src/components/page.tsx` <br>
+`src/components/page.tsx` <br>
 ![6](/04-event-state/img/Screenshot_439.png)
 
 `Result` <br>
 ![6](/04-event-state/img/Screenshot_440.png)
+
+## Praktikum 4
+
+`src/data/article.tsx` <br>
+![6](/04-event-state/img/Screenshot_441.png)
+
+`src/component/gallery.tsx` <br>
+![6](/04-event-state/img/Screenshot_442.png)
+
+`src/components/page.tsx` <br>
+![6](/04-event-state/img/Screenshot_443.png)
+
+`Result` <br>
+![6](/04-event-state/img/Screenshot_444.png)
+
+
+
+
 
 
 
