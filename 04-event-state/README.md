@@ -11,10 +11,10 @@ NIM  : 2341727001
 `src/component/button.tsx`
 ![1](/04-event-state/img/Screenshot_424.png)
 
-    src/app/page.tsx
+`src/app/page.tsx`
 ![2](/04-event-state/img/Screenshot_425.png)
 
-    Result
+`Result`
 ![3](/04-event-state/img/Screenshot_426.png)
 
 ### Langkah 2
