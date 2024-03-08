@@ -22,6 +22,25 @@ NIM  : 2341727001
 
 ### Langkah 2
 
+`04-event-state/src/components/button.tsx` <br>
+![4](/04-event-state/img/Screenshot_427.png)
+
+Muncul eror dengan solusi menambahkan "use client".
+
+`Issue result` <br>
+![5](/04-event-state/img/Screenshot_428.png)
+
+`04-event-state/src/components/page.tsx` <br>
+![6](/04-event-state/img/Screenshot_429.png)
+
+`Fix result` <br>
+![6](/04-event-state/img/Screenshot_430.png)
+
+`04-event-state/src/components/button.tsx` <br>
+![6](/04-event-state/img/Screenshot_430.png)
+
+
+
 
 
 
