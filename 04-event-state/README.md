@@ -47,8 +47,34 @@ Muncul eror dengan solusi menambahkan "use client".
 `04-event-state/src/components/button.tsx` <br>
 ![6](/04-event-state/img/Screenshot_433.png)
 
-`Result`
+`Result` <br>
 ![6](/04-event-state/img/Screenshot_434.png)
+
+## Praktikum 3
+
+### Langkah 1
+
+`04-event-state/src/components/button.tsx` <br>
+![6](/04-event-state/img/Screenshot_438.png)
+
+`04-event-state/src/components/page.tsx` <br>
+![6](/04-event-state/img/Screenshot_439.png)
+
+`Result` <br>
+![6](/04-event-state/img/Screenshot_440.png)
+
+### Langkah 2
+
+`04-event-state/src/components/button.tsx` <br>
+![6](/04-event-state/img/Screenshot_435.png)
+
+`04-event-state/src/components/page.tsx` <br>
+![6](/04-event-state/img/Screenshot_439.png)
+
+`Result` <br>
+![6](/04-event-state/img/Screenshot_440.png)
+
+
 
 
 
