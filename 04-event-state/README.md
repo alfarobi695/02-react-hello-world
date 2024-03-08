@@ -88,6 +88,21 @@ Muncul eror dengan solusi menambahkan "use client".
 `Result` <br>
 ![6](/04-event-state/img/Screenshot_444.png)
 
+## Soal
+1. Jika kita menekan tombol "Artikel Selanjutnya" sebanyak 5x (atau melebihi halaman total artikel), apa yang akan terjadi?
+2. Modifikasilah gallery.tsx agar bisa meng-handle permasalahan tersebut.
+3. Tambahkan tombol "Artikel Sebelumnya", untuk menampilkan artikel secara mundur.
+
+### Jawaban
+1. Akan terjadi eror karena hanya ada 5 data yang berada pada file article.jsx hanya
+2. Berikut kode yang di modifikasi <br>
+![6](/04-event-state/img/Screenshot_445.png)
+3.  Berikut hasil kode yang telah dimodifikasi <br>
+![6](/04-event-state/img/Screenshot_446.png)
+
+
+
+
 
 
 
