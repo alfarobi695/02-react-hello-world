@@ -8,7 +8,7 @@ NIM  : 2341727001
 
 ### Langkah 1
 
-    src/component/button.tsx
+`src/component/button.tsx`
 ![1](/04-event-state/img/Screenshot_424.png)
 
     src/app/page.tsx
