@@ -37,7 +37,7 @@ Muncul eror dengan solusi menambahkan "use client".
 ![6](/04-event-state/img/Screenshot_430.png)
 
 `04-event-state/src/components/button.tsx` <br>
-![6](/04-event-state/img/Screenshot_430.png)
+![6](/04-event-state/img/Screenshot_431.png)
 
 
 
