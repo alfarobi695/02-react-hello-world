@@ -138,3 +138,23 @@ state fullName digantikan variable biasa
 `Penjelasan`
 Setelah kode di compile memiliki hasil yang sama
 
+## Soal
+
+1. Apa perbedaan dari fungsi Form_2 yang pertama dengan yang kedua?
+2. Kenapa perlu menghapus state fullName? Apa keuntungannya?
+
+### Jawaban
+
+1. Perbedaan nya antara lain
+
+- Cara Penanganan State:
+    - Kode pertama menggunakan tiga state terpisah untuk `firstName`, `lastName`, dan `fullName`.
+    - Kode kedua hanya menggunakan state untuk `firstName` dan `lastName`, sementara `fullName` dihitung langsung di dalam komponen.
+
+- Perhitungan Nama Lengkap (`fullName`):
+   - Kode pertama menghitung `fullName` setelah mengubah state `firstName` atau `lastName` di dalam fungsi khusus.
+   - Kode kedua menghitung `fullName` langsung di dalam JSX, tanpa perlu fungsi tambahan.
+
+2. keuntungannya adalah kemampuan Perubahan `fullName`:
+- Kode pertama mungkin memiliki masalah dengan pembaruan nilai yang tertinggal karena cara React mengelola pembaruan state secara asinkron.
+- Kode kedua lebih langsung, sehingga `fullName` selalu mencerminkan nilai terbaru dari `firstName` dan `lastName`.
