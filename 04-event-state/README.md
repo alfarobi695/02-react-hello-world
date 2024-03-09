@@ -39,7 +39,7 @@ Muncul eror dengan solusi menambahkan "use client".
 `src/components/button.tsx` <br>
 ![6](/04-event-state/img/Screenshot_431.png)
 
-`Result`
+`Result` <br>
 ![6](/04-event-state/img/Screenshot_432.png)
 
 ## Praktikum 2
