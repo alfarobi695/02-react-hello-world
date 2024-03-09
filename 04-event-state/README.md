@@ -189,3 +189,14 @@ Kode tersebut merupakan komponen yang membuat sebuah accordion (sebuah elemen UI
 
 `Penjelasan`
 Menambahkan ini agar React bisa lebih baik dalam mengelola bagaimana komponen Chat ini diperbarui. Jadi, setiap kali memilih kontak baru, "key" membantu React memahami bahwa Chat seharusnya di-update dengan benar.
+
+## Soal
+
+1. Apa tujuan dari penulisan ini key={to.email} pada < Chat key={to.email} contact={to} / > ?
+2. Apa fungsi dari props key tersebut?
+
+### Jawaban
+
+1. Tujuannya adalah untuk membantu ne dalam proses pembaruan ulang komponen saat terjadi perubahan pada struktur daftar dan data pada komponen.
+
+2. Prop "key" dalam React berfungsi untuk memberikan identifikasi unik kepada setiap komponen, memungkinkan optimisasi re-render, dan membantu dalam menjaga state untuk komponen yang berbeda saat daftar komponen mengalami perubahan, sehingga memastikan pengalaman pengguna yang konsisten.
