@@ -17,7 +17,9 @@ export default function Accordion() {
                 isActive={activeIndex === 1}
                 onShow={() => setActiveIndex(1)}
             >
-                Nama "Almaty" berasal dari kata <span lang="kk-KZ">алма</span>,dalam bahasa Kazakh yang berarti "apel"dan sering diterjemahkan sebagai "penuh dengan apel". Sebenarnya, wilayah sekitar Almaty dipercaya sebagai asal usul apel, dan <i lang="la">Malus sieversii</i> liar dianggap sebagai kandidat yang mungkin menjadi nenek moyang apel domestik modern.
+                Nama "Almaty" berasal dari kata <span lang="kk-KZ">алма</span>,dalam bahasa Kazakh yang berarti "apel"dan sering diterjemahkan sebagai "penuh dengan apel". 
+                Sebenarnya, wilayah sekitar Almaty dipercaya sebagai asal usul apel, dan <i lang="la">Malus sieversii</i> liar dianggap sebagai kandidat yang mungkin menjadi 
+                nenek moyang apel domestik modern.
             </Panel>
         </>
     );

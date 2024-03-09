@@ -158,3 +158,34 @@ Setelah kode di compile memiliki hasil yang sama
 2. keuntungannya adalah kemampuan Perubahan `fullName`:
 - Kode pertama mungkin memiliki masalah dengan pembaruan nilai yang tertinggal karena cara React mengelola pembaruan state secara asinkron.
 - Kode kedua lebih langsung, sehingga `fullName` selalu mencerminkan nilai terbaru dari `firstName` dan `lastName`.
+
+## Praktikum 6
+
+### Langkah 1
+
+`src/components/accordion.tsx`
+![6](/04-event-state/img/Screenshot_454.png)
+
+
+`src/components/page.tsx` <br>
+![6](/04-event-state/img/Screenshot_455.png)
+
+`Result` <br>
+![6](/04-event-state/img/Screenshot_456.png)
+
+`Penjelasan`
+Kode tersebut merupakan komponen yang membuat sebuah accordion (sebuah elemen UI yang memungkinkan pengguna untuk memperluas dan menyembunyikan konten) dengan dua panel yang bisa di-klik
+
+### Langkah 2
+`src/components/chat.tsx` <br>
+![6](/04-event-state/img/Screenshot_457.png)
+![6](/04-event-state/img/Screenshot_458.png)
+
+`src/components/page.tsx` <br>
+![6](/04-event-state/img/Screenshot_459.png)
+
+`Result` <br>
+![6](/04-event-state/img/Screenshot_460.png)
+
+`Penjelasan`
+Menambahkan ini agar React bisa lebih baik dalam mengelola bagaimana komponen Chat ini diperbarui. Jadi, setiap kali memilih kontak baru, "key" membantu React memahami bahwa Chat seharusnya di-update dengan benar.
