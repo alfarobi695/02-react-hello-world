@@ -1,5 +1,6 @@
 import About from "./about/page";
 import Profile from "./about/profile";
+import Blog from "./blogs/page";
 
 export default function Home() {
     return  (
@@ -7,6 +8,7 @@ export default function Home() {
         <h1>Welcome to Home</h1>
         <About/>
         <Profile/>
+        <Blog/>
         </>
     );
 }
