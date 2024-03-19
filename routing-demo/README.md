@@ -28,3 +28,25 @@ NIM  : 2341727001
 7. Untuk membuat halaman routing /about dengan NextJS, silahkan buat folder /about dalam /app dan buat file dengan nama page.tsx. Kemudian buat function komponen seperti pada kode berikut.<br>
     ![1](/routing-demo/images/Screenshot_525.png)<br>
     ![1](/routing-demo/images/Screenshot_526.png)<br>
+
+## Praktikum 2: Membuat routing bersarang (Nested Routing)
+1. Dengan menggunakan konsep yang sama pada Praktikum 1, silahkan tambahkan susunan folder /blogs/first dan /blogs/second. Kemudian tambahkan masing-masing untuk setiap folder dengan file page.tsx.<br>
+    ![1](/routing-demo/images/Screenshot_527.png)<br>
+
+2. Pada file /blogs/page.tsx buatlah function component seperti kode berikut atau anda dapat mengkreasikan tampilan dengan selera anda!<br>
+    ![1](/routing-demo/images/Screenshot_528.png)<br>
+
+3. Pada file /blogs/first/page.tsx buatlah function component seperti berikut: <br>
+    ![1](/routing-demo/images/Screenshot_531.png)<br>
+
+4. Cobalah akses halaman /blogs dan /blogs/first pada browser anda.<br>
+    ![1](/routing-demo/images/Screenshot_529.png)<br>
+    ![1](/routing-demo/images/Screenshot_530.png)<br>
+
+### Todo: Lengkapi function component pada /blogs/second/page.tsx
+![1](/routing-demo/images/Screenshot_532.png)<br>
+
+
+
+
+
