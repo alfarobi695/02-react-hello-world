@@ -46,6 +46,37 @@ NIM  : 2341727001
 ### Todo: Lengkapi function component pada /blogs/second/page.tsx
 ![1](/routing-demo/images/Screenshot_532.png)<br>
 
+### Pertanyaan: Apa kekurangan yang mungkin terjadi jika menggunakan pendekatan pada Praktikum 2 untuk menangani routing?
+### Struktur bersarang adalah cara bagaimana bagian-bagian sistem disusun di dalam bagian-bagian lainnya. Ini bisa memengaruhi seberapa efisien sistem bekerja, terutama jika ada banyak rute atau jalur yang harus diambil oleh sistem tersebut. Misalnya, jika ada terlalu banyak lapisan struktur bersarang, mungkin akan memperlambat proses atau membuatnya lebih kompleks. 
+
+
+## Praktikum 3: Membuat routing dinamis (Dynamic Routing)
+1. Buatlah file /products/page.tsx yang berisi function component untuk menampilkan list dari products seperti kode berikut.<br>
+    ![1](/routing-demo/images/Screenshot_533.png)<br>
+
+2. Untuk mendefinisikan url path di NextJs menggunakan konvensi penamaan direktori dengan mengapit nama path dengan simbol [ ]. Sebagai contoh: [productId] menandakan bahwa path dinamis menggunakan variabel productId (Catatan: Anda boleh menuliskan hanya dengan [id], tetapi untuk mempermudah pembacaan konteks sebaiknya jangan gunakan hanya id).<br>
+    ![1](/routing-demo/images/Screenshot_534.png)<br>
+
+3. Kemudian buatlah file page.tsx pada lokasi /app/products/[productId] dan tambahkan kode sebagai berikut.<br>
+    ![1](/routing-demo/images/Screenshot_535.png)<br>
+
+4. Untuk mendapatkan nilai path, anda dapat menggunakan pemanggilan params.productId. Pemanggilan atribut params, disesuaikan dengan pendefinisian nama path.
+
+5. Cobalah akses halaman /products dan /products/1 pada browser anda. Ubah nilai productId dengan nilai lainnya. <br>
+    ![1](/routing-demo/images/Screenshot_487.png)<br>
+    ![1](/routing-demo/images/Screenshot_488.png)<br>
+
+### Todo 1: Perbaiki implementasi Praktikum 2 menggunakan Dynamic Routes
+![1](/routing-demo/images/Screenshot_491.png)<br>
+![1](/routing-demo/images/Screenshot_493.png)<br>
+
+### Todo 2: Dengan menggunakan konsep Nested Routes dan Dynamic Routes, buatlah halaman dengan routing /products/[productId]/reviews/[reviewId]
+![1](/routing-demo/images/Screenshot_494.png)<br>
+![1](/routing-demo/images/Screenshot_495.png)<br>
+
+
+
+
 
 
 
