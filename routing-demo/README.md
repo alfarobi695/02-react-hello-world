@@ -74,6 +74,21 @@ NIM  : 2341727001
 ![1](/routing-demo/images/Screenshot_494.png)<br>
 ![1](/routing-demo/images/Screenshot_495.png)<br>
 
+## Praktikum 4: Navigasi dengan Link Component
+1. Pada file /app/page.tsx tambahkan import Link komponen seperti kode berikut.<br>
+    ![1](/routing-demo/images/Screenshot_496.png)<br>
+
+2. Tambahkan penggunaan Link komponen untuk mengakses halaman /profile dan /about <br>
+    ![1](/routing-demo/images/Screenshot_537.png)<br>
+
+3. Coba buka browser anda dan cobalah untuk bernavigasi menggunakan Link komponen. <br>
+    ![1](/routing-demo/images/Screenshot_538.png)<br>
+
+### Todo: Tambahkan link yang sebelumnya anda telah kerjakan!
+![1](/routing-demo/images/Screenshot_496.png)<br>
+![1](/routing-demo/images/Screenshot_497.png)<br>
+
+
 
 
 
