@@ -23,4 +23,6 @@ NIM  : 2341727001
 
 
 6. Menjalankan project next.js dengan hasil berikut<br>
-![1](/pertemuan-06/img/Screenshot_545.png)
+![1](/pertemuan-06/img/Screenshot_567.png)<br>
+![1](/pertemuan-06/img/Screenshot_566.png)<br>
+Penjelasan : Kode tersebut adalah project React yang menggunakan Bootstrap untuk membuat sebuah tombol. Saat tombol tersebut ditekan, sebuah jendela modal Bootstrap akan muncul dengan pesan "Halo semua, kita sedang menggunakan bootstrap di Next.js". Jendela modal ini dimunculkan menggunakan fitur bawaan Bootstrap yang memungkinkan tampilan modal ketika tombol tertentu ditekan.

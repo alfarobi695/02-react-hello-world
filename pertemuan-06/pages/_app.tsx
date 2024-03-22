@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "@/styles/globals.css";
 import React, { useEffect } from "react";
 
@@ -11,3 +12,5 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp;
+
+

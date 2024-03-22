@@ -1,3 +1,6 @@
+// pages/index.js
+import React from 'react';
+
 export default function Home() {
   return (
     <div className="container">
@@ -19,14 +22,14 @@ export default function Home() {
         <div className="modal-dialog">
           <div className="modal-content">
             <div className="modal-header">
-              <h5 className="modal-title text-black" id="exampleModalLabel"> yay... </h5>
+              <h5 className="modal-title" id="exampleModalLabel"> yay... </h5>
               <button
                 type="button"
                 className="btn-close"
                 data-bs-dismiss="modal"
                 aria-label="Close"></button>
             </div>
-            <div className="modal-body text-black">
+            <div className="modal-body">
               <h2>Halo semua, kita sedang menggunakan bootstrap di Next.js</h2>
             </div>
           </div>
