@@ -102,6 +102,16 @@ Jawab : <br> Ya, kita dapat menggunakan store Redux untuk menyimpan banyak reduc
 5. Jelaskan kegunaan dari file store.js!<br>
 Jawab : <br> Kode ini digunakan untuk membuat dan mengatur bagaimana data disimpan dan dikelola dalam aplikasi Next.js menggunakan Redux dan Redux Persist. Pertama, kita siapkan pengaturan dasar untuk menyimpan data dengan Redux Persist. Kemudian, kita gabungkan berbagai bagian data aplikasi menggunakan Redux. Setelah itu, kita atur agar data bisa disimpan secara persisten dengan Redux Persist. Terakhir, kita membuat store untuk menyimpan data aplikasi dan mengekspornya agar bisa digunakan di seluruh aplikasi. Dengan begini, kita bisa mengelola data aplikasi dengan lebih mudah dan menyimpannya bahkan ketika aplikasi dimatikan.
 
+6. Pada file pages/login.tsx, apa maksud dari kode ini ? `const { isLogin } = useSelector((state) => state.auth);` <br>
+Jawab : <br> Baris `const { isLogin } = useSelector((state) => state.auth);` digunakan untuk mengambil nilai dari properti `isLogin` dari state Redux di dalam komponen `LoginCheck`. Fungsi `useSelector` dari React Redux memungkinkan kita untuk memilih bagian tertentu dari state Redux dan mengaksesnya di dalam komponen React. Dalam kasus ini, `useSelector` digunakan untuk memilih state `auth` dari store Redux, kemudian mengambil nilai `isLogin` dari state tersebut. Dengan menggunakan `{ isLogin }`, kita mengekstrak nilai `isLogin` dari state `auth` sehingga bisa langsung digunakan di dalam komponen `LoginCheck` tanpa harus menuliskan `state.auth.isLogin` berulang kali.
+
+7. Pada file pages/counter.tsx, apa maksud dari kode ini? `const {totalCounter} = useSelector((state) => state.counter);`
+Jawab : <br> Baris `const { totalCounter } = useSelector((state) => state.counter);` digunakan untuk mengambil nilai dari properti `totalCounter` dari state Redux di dalam komponen `CounterNaikTurun`. Pada file pages/counter.tsx, `useSelector` digunakan untuk memilih state `counter` (nama slice dari state) dari store Redux, kemudian mengambil nilai `totalCounter` dari state tersebut. Dengan menggunakan `{ totalCounter }`, kita mengekstrak nilai `totalCounter` dari state `counter` sehingga bisa langsung digunakan di dalam komponen `CounterNaikTurun` tanpa harus menuliskan `state.counter.totalCounter` berulang kali.
+
+
+
+
+
 
 
 
