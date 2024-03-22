@@ -1,40 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Nama : Muhamad Al Faroby
 
-## Getting Started
+Kelas: TI-4J
 
-First, run the development server:
+NIM  : 2341727001
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Praktikum 1: Instalasi Redux dan bootstrap
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. install project next.js baru, karena kita tidak menggunakan default App Router. Kita buat project baru dengan nama pertemuan-06 pada repo PBF <br>
+![1](/pertemuan-06/img/Screenshot_539.png)<br>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+2. Membuka open folder untuk project pertemuan-06 di VS Code, maka isi direktori yang ada di dalamnya sedikit berbeda dengan project yang sudah pernah kita buat sebelumnya. Yaitu terdapat folder pages dan styles.<br>
+![1](/pertemuan-06/img/Screenshot_540.png)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+3. Menggunakan CSS Library Bootstrap dengan menjalankan perintah `npm install bootstrap`<br>
+![1](/pertemuan-06/img/Screenshot_544.png)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+4. Import bootstrap pada aplikasi next.js kita. Kita edit file pages/_app.tsx<br>
+![1](/pertemuan-06/img/Screenshot_542.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5. Implementasi bootstrap pada project next.js dengan mengubah  file pages/index.tsx<br>
+![1](/pertemuan-06/img/Screenshot_543.png)
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+6. Menjalankan project next.js dengan hasil berikut<br>
+![1](/pertemuan-06/img/Screenshot_545.png)
