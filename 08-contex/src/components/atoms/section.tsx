@@ -1,14 +1,14 @@
-import { LevelContext } from "@/utilities/context/mycontext";
+import { levelContext } from "@/utilities/context/mycontext";
 import { useContext } from "react";
 
 
 export default function Section({ children }: {  children: any }) {
-    const level = useContext(LevelContext);
+    const level = useContext(levelContext);
     return (
         <section className="section">
-            <LevelContext.Provider value={level +1}>
+            <levelContext.Provider value={level +1}>
                 {children}
-            </LevelContext.Provider>
+            </levelContext.Provider>
         </section>
     );
 }
