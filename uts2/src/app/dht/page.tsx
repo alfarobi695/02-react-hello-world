@@ -49,7 +49,11 @@ export default function Home() {
                 </div>
                 <div className="w-full sm:w-3/4">
                 <CardContent className="items-center">
-                        <p className="p-4 font-semibold">Grafik Data Sensor</p>
+                        <p className="p-4 font-semibold">Grafik Data Sensor Temperature</p>
+                        <BarChart />
+                    </CardContent>
+                    <CardContent className="items-center">
+                        <p className="p-4 font-semibold">Grafik Data Sensor Humidity</p>
                         <BarChart />
                     </CardContent>
                     <section className="p-4 grid w-full grid-cols-1 gap-4 gap-x-12 transition-all sm:grid-cols-1 xl:grid-cols-3">
