@@ -158,7 +158,7 @@ Buatlah file dan folder baru di `src\utilities\themes\mythemes.tsx` yang berisi 
 
 Kemudian buatlah contexnya di file `src\utilities\contexs\mycontex.tsx`
 
-![img](/08-contex/img/prak%203%20langkah%201%20mycontex.PNG)
+![img](/08-contex/img/prak%203%20langkah%201%20mycontext.PNG)
 
 2. Langkah 2: Buat komponen atom NavBar
 
