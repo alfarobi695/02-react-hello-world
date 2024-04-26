@@ -1,12 +1,17 @@
 import Heading from "../atoms/heading";
 import Post from "../atoms/post";
 import Section2 from "../atoms/section2";
+import AllPosts from "../organisms/allpost";
 
 export default function AboutPage() {
-    return (
+    return(
         <Section2 isFancy={true}>
-            <Heading>About Me</Heading>
-            <Post title="My name is Alfa" body="My NIM is 2341727001"/>
+            <Heading>About Page</Heading>
+            <Post
+            title="Belajar Context"
+            body="HAI!!!"
+            />
+            <AllPosts />
         </Section2>
     );
 }

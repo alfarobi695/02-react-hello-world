@@ -1,12 +1,16 @@
 import Heading from "../atoms/heading";
 import Post from "../atoms/post";
 import Section2 from "../atoms/section2";
+import AllPosts from "../organisms/allpost";
 
-export default function ContactPage() {
-    return (
+export default function ContactsPage() {
+    return(
         <Section2 isFancy={true}>
-            <Heading>My Contact</Heading>
-            <Post title="Alfa Contact" body="NIM: 2341727001| Phone: 089525311039"/>
+            <Heading>Kontak Saya</Heading>
+            <Post
+            title="NO.HP"
+            body="089525311030"
+            />
         </Section2>
     );
 }

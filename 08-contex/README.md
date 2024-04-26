@@ -38,7 +38,7 @@ Ubahlah kode di `src\app\page.tsx` seperti berikut. Lalu run dan lihat hasilnya 
 
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 
-![img](/08-contex/img/prak%201%20hasil%20soal%201.PNG)
+![img](/08-contex/img/Screenshot_700.png)
 
 ### Penjelasan
 Saya telah mempelajari cara kejra prinsip atomic design. Dan setelah code di compile muncul tulisan title, heading, sub-heading, dan sub-sub-heading. 
@@ -69,7 +69,7 @@ Soal 2
 
 Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
 Penjelasan : hingga step ini telah mempelajari persiapan penggunaaan konsep contex dalam next.js
-![img](/08-contex/img/prak%201%20hasil%20soal%20no%202%20error.PNG)
+![img](/08-contex/img/Screenshot_702.png)
 
 Jika terjadi error, silakan perbaiki, Mengapa hal itu bisa terjadi? Jelaskan!
 Penjelasan : eror tersebut terjadi karena server membutuh kan render di sisi client dengan deklarasi "use client"
@@ -78,7 +78,7 @@ Penjelasan : eror tersebut terjadi karena server membutuh kan render di sisi cli
 
 Hasilnya :
 
-![img](/08-contex/img/prak%201%20hasil%20soal%20no%202%20perbaikan%20error%20kedua.PNG)
+![img](/08-contex/img/Screenshot_700.png)
 
 8. Langkah 6: Menggunakan dan menyediakan contex dari komponen yang sama
 
@@ -97,7 +97,7 @@ Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda 
 
 Penjelasan : yang di pelajari adalah cara membuat variasi ukuran teks heading dengan contex
 
-![img](/08-contex/img/prak%201%20hasil%20soal%20no%203.PNG)
+![img](/08-contex/img/Screenshot_700.png)
 
 
 # Praktikum 2: Membuat Contex melewati komponen perantara
@@ -209,23 +209,23 @@ Silakan save semua dan lakukan running di browser Anda. Capture hasilnya dan bua
 
 Hasil untuk Home
 
-![img](/08-contex/img/prak%203%20hasil%20home%20asli%20yang%20benar.PNG)
+![img](/08-contex/img/Screenshot_703.png)
 
 Hasil untuk About
 
-![img](/08-contex/img/prak%203%20hasil%20about%20yang%20benar.PNG)
+![img](/08-contex/img/Screenshot_704.png)
 
 Hasil untuk Contact
 
-![img](/08-contex/img/prak%203%20hasil%20contact%20yang%20benar.PNG)
+![img](/08-contex/img/Screenshot_705.png)
 
 Hasil untuk Profile
 
-![img](/08-contex/img/prak%203%20hasil%20profile%20yang%20benar.PNG)
+![img](/08-contex/img/Screenshot_706.png)
 
 Hasil untuk Set Dark Theme
 
-![img](/08-contex/img/prak%203%20hasil%20set%20dark%20yang%20benar.PNG)
+![img](/08-contex/img/Screenshot_707.png)
 
 
 Apakah toggle button tema sudah berfungsi ? jika belum, silakan perbaiki!
@@ -244,12 +244,12 @@ Hasilnya menjadi seperti dibawah ini
 
 Untuk Home
 
-![img](/08-contex/img/prak%203%20hasil%20Home%20dark.PNG)
+![img](/08-contex/img/Screenshot_708.png)
 
 Untuk About
 
-![img](/08-contex/img/prak%203%20hasil%20%20About%20dark.PNG)
+![img](/08-contex/img/Screenshot_709.png)
 
 Untuk Contact
 
-![img](/08-contex/img/prak%203%20hasil%20contact%20dark.PNG)
+![img](/08-contex/img/Screenshot_710.png)

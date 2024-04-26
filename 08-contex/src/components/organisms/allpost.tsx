@@ -1,12 +1,21 @@
 import Heading from "../atoms/heading";
+import Post from "../atoms/post";
 import Section2 from "../atoms/section2";
-import RecentPost from "../molecules/recentpost";
+import RecentPosts from "../molecules/recentpost";
 
-export default function AllPosts() {
-    return (
+export default function AllPosts(){
+    return(
         <Section2 isFancy={true}>
             <Heading>Posts</Heading>
-            <RecentPost/>
+            <Post
+            title="Nama : "
+            body="Muhamad Al Faroby"
+            />
+            <Post
+            title="NIM : "
+            body="2341727001"
+            />
+            <RecentPosts />
         </Section2>
     );
 }

@@ -4,12 +4,13 @@ import Section2 from "../atoms/section2";
 import AllPosts from "../organisms/allpost";
 
 export default function ProfilePage() {
-    return (
+    return(
         <Section2 isFancy={true}>
-            <Heading>Profil Alfa - 2341727001</Heading>
+            <Heading>Profil Saya</Heading>
             <Post
-                title="Hello Traveller!"
-                body="Baca tentang petualangan saya" />
+            title="Hello traveller!"
+            body="Baca tentang petualangan Saya."
+            />
             <AllPosts />
         </Section2>
     );
